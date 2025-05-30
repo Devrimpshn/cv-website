@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Devrim Paşahan CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #2d2d2d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-info {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 1.2em;
+            color: #888;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #2d2d2d;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            align-items: stretch;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .project-card {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            box-sizing: border-box;
+            max-width: 100%;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-title {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+
+        .project-description {
+            flex-grow: 1;
+            margin-bottom: 15px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            height: 200px;
+            border-radius: 5px;
+            margin: 0;
+            transition: opacity 0.3s ease;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .video-thumbnail:hover {
+            opacity: 0.8;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #66bb6a;
+        }
+
+        .portfolio-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .portfolio-link:hover {
+            background-color: #66bb6a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-photo">
+            <img src="images/profile.jpg" alt="Yusuf Devrim Paşahan">
+        </div>
+        <div class="header-info">
+            <h1>Yusuf Devrim Paşahan</h1>
+            <div class="title">Game Developer & 3D Artist</div>
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/yusuf-devrim-pa%C5%9Fahan-2b0590243/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Devrimpshn" target="_blank">GitHub</a>
+                <a href="https://www.youtube.com/@yusufdevrimpasahangames" target="_blank">YouTube</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am a creative and innovative game developer with experience in Unity and Unreal Engine. I am passionate about 3D modeling and game development, constantly working to create immersive gaming experiences. Beyond game development, I've expanded my expertise into web development, creating interactive 3D web applications and portfolio websites.</p>
+            
+            <p>With a strong foundation in programming and a deep interest in technology, I am pursuing my goal of studying Cybersecurity at the graduate level in Canada. This ambition drives me to continuously expand my knowledge across various domains of software development, from game engines to web security, preparing myself for the evolving challenges of the digital world.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Digital Game Design</strong> - Bahçeşehir University, 2021-2025</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Unity</span>
+                <span class="skill">Unreal Engine</span>
+                <span class="skill">C#</span>
+                <span class="skill">C++</span>
+                <span class="skill">3D Modeling</span>
+                <span class="skill">Blender</span>
+                <span class="skill">Animation in Maya</span>
+                <span class="skill">Game Design</span>
+                <span class="skill">Level Design</span>
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Three.js</span>
+                <span class="skill">WebGL</span>
+                <span class="skill">Responsive Design</span>
+                <span class="skill">Git</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3D Models</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3 class="project-title">Low Poly World</h3>
+                    <p>A low-poly world model designed for games. Optimized and ready for game engine implementation.</p>
+                    <a href="/cv-website/viewer.html?model=lowpolyworld.fbx" class="portfolio-link">View 3D Model</a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Game Character</h3>
+                    <p>A low-poly character model designed for game implementation.</p>
+                    <a href="/cv-website/viewer.html?model=LowPolyCharacter.fbx" class="portfolio-link">View 3D Model</a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Coffee Shop</h3>
+                    <p>A detailed coffee shop interior model with modern design.</p>
+                    <a href="/cv-website/viewer.html?model=coffeshop.fbx" class="portfolio-link">View 3D Model</a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Bedroom</h3>
+                    <p>A modern bedroom interior model with detailed furniture.</p>
+                    <a href="/cv-website/viewer.html?model=Bedroom.fbx" class="portfolio-link">View 3D Model</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3 class="project-title">Time In</h3>
+                    <p class="project-description">In this psychological puzzle game, the player wakes up in a ransacked house filled with clues to an apparent break-in. As they solve environmental puzzles and uncover hidden keys, the truth gradually unfolds. A blood-filled bathtub, a hidden knife, and a chilling voice recording lead to a disturbing realization — the player has murdered their spouse, but their mind refuses to accept it. In the final moment, the player must make a choice: turn themselves in, or destroy the evidence. The game ends with this haunting dilemma, leaving morality in the player's hands.</p>
+                    <a href="https://youtu.be/rXQYLCphITc" target="_blank">
+                        <img src="images/Time_In_thumbnail.jpg" alt="Time In Gameplay" class="video-thumbnail">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">The Sicilia</h3>
+                    <p class="project-description">Sicilia is a relentless 2D top-down shooter where bullets never stop flying. After getting entangled with a brutal mafia, you must fight your way through waves of enemies, assassinate powerful mob lieutenants, and face the ultimate crime boss. With intense combat, explosive encounters, and non-stop action, Sicilia delivers an adrenaline-fueled experience from start to finish.</p>
+                    <a href="https://youtu.be/vttMzyoXFFA" target="_blank">
+                        <img src="images/Screenshot_1.png" alt="The Sicilia Gameplay" class="video-thumbnail">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Perpetrum</h3>
+                    <p class="project-description">Perpretum is a narrative-driven psychological game that begins in the quiet, grief-filled room of the protagonist who is mourning the loss of a close friend. After falling asleep, the player finds themselves in a dreamlike maze shaped by avoidance and inner turmoil. As the journey progresses, memories resurface and the player explores a mysterious mansion with rooms reflecting different emotions such as anger and acceptance. By confronting these feelings, the player eventually returns to the original room, now transformed into a bright and joyful space. Perpretum explores themes of healing, emotional struggle, and personal growth.</p>
+                    <a href="https://youtu.be/s_K3pStAPj8" target="_blank">
+                        <img src="images/perpetrum.png" alt="Perpetrum Gameplay" class="video-thumbnail">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">CV Website</h3>
+                    <p class="project-description">A modern, responsive portfolio website showcasing my game development and 3D modeling work. Built using HTML5, CSS3, and JavaScript. The site features an interactive 3D model viewer powered by Three.js. Key features include responsive design for all devices, custom 3D model viewer integration, optimized image loading, and seamless video embedding. This project demonstrates my web development skills alongside my game development portfolio.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email: appledevrimpasahan@gmail.com</p>
+            <p>Phone: +90 537 491 33 22</p>
+        </div>
+    </div>
+</body>
+</html> 

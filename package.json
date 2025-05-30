@@ -1,0 +1,12 @@
+{
+  "name": "3d-model-viewer",
+  "version": "1.0.0",
+  "description": "3D Model Viewer for CV Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
